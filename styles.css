@@ -1,0 +1,43 @@
+/* The designs were created to the following widths: - Mobile: 375px - Desktop: 1440px */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+--White: hsl(0, 0%, 100%); 
+--Light-gray: hsl(212, 45%, 89%); --Grayish-blue: hsl(220, 15%, 55%); 
+--Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  background-color: var(--Grayish-blue);
+}
+
+.container {
+  background-color: var(--White);
+  border-radius: 15px;
+  width: 80vw;
+  margin: auto;
+  margin-top: 25%;
+  text-align: center;
+}
+/*
+.card {
+  border: green solid 4px;
+  width: 85%;
+  margin: auto;
+}
+*/
+
+.img {
+  max-width: 85%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 20px;
+}

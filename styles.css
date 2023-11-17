@@ -19,6 +19,10 @@ body {
   background-color: var(--Grayish-blue);
 }
 
+h1 {
+  font-size: 21px;
+}
+
 .container {
   background-color: var(--White);
   border-radius: 15px;
@@ -39,5 +43,19 @@ body {
   max-width: 85%;
   margin: auto;
   padding: 15px;
-  border-radius: 20px;
+  border-radius: 25px;
+}
+
+.card-text, h1, p {
+  padding: 15px 0;
+  margin: 0 31px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

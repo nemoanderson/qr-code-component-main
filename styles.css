@@ -62,3 +62,35 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (min-width: 720px) {
+    .container {
+        max-width:420px;
+        background-color: var(--White);
+        border-radius: 15px;
+        width: 83vw;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: 
+        column;padding: 15px;
+      }
+    
+      .img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+    
+      
+      .card-text p {
+        font-size: 15px;
+        color: var(--grayish-blue);
+      }
+    
+      .card-text h1 {
+        font-size: 22px;
+        color: var(--dark-blue);
+      }
+}

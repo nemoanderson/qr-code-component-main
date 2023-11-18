@@ -6,7 +6,7 @@
   --White: hsl(0, 0%, 100%);
   --Light-gray: hsl(212, 45%, 89%);
   --Grayish-blue: hsl(220, 15%, 55%);
-  --Dark-blue: hsl(218, 44%, 22%);
+  --Dark-blue: hsl(218, 45%, 22%);
 }
 
 * {
@@ -18,7 +18,7 @@
 body {
   font-family: 'Outfit', sans-serif;
   font-size: 14px;
-  background-color: var(--Grayish-blue);
+  background-color: var(--Light-gray);
 }
 
 h1 {
@@ -29,11 +29,7 @@ p {
   color: var(--Grayish-blue);
 }
 
-footer {
-  margin-top: 100px;
-  background-color: var(--Light-gray);
-}
-
+/* Card */
 .container {
   background-color: var(--White);
   border-radius: 15px;
@@ -57,15 +53,23 @@ p {
   margin: 0 23px;
 }
 
+/* Footer */
+
+footer {
+  margin-top: 100px;
+  background-color: var(--Grayish-blue);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
 }
 
+/* Desktop */
 @media (min-width: 720px) {
   .container {
     max-width: 420px;

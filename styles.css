@@ -11,6 +11,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 }
 
 h1 {
-  font-size: 19px;
+  font-size: 16px;
 }
 
 p {
@@ -35,21 +36,14 @@ footer {
 .container {
   background-color: var(--White);
   border-radius: 15px;
-  width: 80vw;
+  width: 83vw;
   margin: auto;
   margin-top: 25%;
   text-align: center;
 }
-/*
-.card {
-  border: green solid 4px;
-  width: 85%;
-  margin: auto;
-}
-*/
 
 .img {
-  max-width: 85%;
+  max-width: 100%;
   margin: auto;
   padding: 15px;
   border-radius: 25px;
@@ -57,7 +51,7 @@ footer {
 
 .card-text, h1, p {
   padding: 15px 0;
-  margin: 0 29px;
+  margin: 0 23px;
 }
 
 .attribution {

@@ -15,7 +15,7 @@
 .DS_Store
 .prettierignore
 
-
+# Files and folders not needed in project. 
 *style-guide.md
 *.vscode
 *design

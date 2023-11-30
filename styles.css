@@ -1,6 +1,5 @@
 /* The designs were created to the following widths: - Mobile: 375px - Desktop: 1440px */
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* Font: Outfit Weights: 400, 700  removed import, added it to head of HTML */
 
 :root {
   --White: hsl(0, 0%, 100%);
@@ -15,28 +14,33 @@
   box-sizing: border-box;
 }
 
+/* added text-align:center; */
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
   font-family: 'Outfit', sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   background-color: var(--Light-gray);
 }
 
 h1 {
-  font-size: 16px;
+  font-size: 1.5rem;
 }
 
 p {
   color: var(--Grayish-blue);
 }
 
-/* Card */
+/* Card */ /* removed width: 83vw; & margin-top: 25%; change margin from auto to 4rem text-align: center; interited in body*/
+
 .container {
   background-color: var(--White);
   border-radius: 15px;
-  width: 83vw;
-  margin: auto;
-  margin-top: 25%;
-  text-align: center;
+  margin: 4rem;
 }
 
 .img {
@@ -61,7 +65,7 @@ footer {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 9px;
   text-align: center;
 }
 
@@ -69,36 +73,12 @@ footer {
   color: white;
 }
 
-/* Desktop */
+/* Desktop - remove code already existing as suggested. Figure a way to not use media quary at all for 2.0. */
+
 @media (min-width: 720px) {
   .container {
     max-width: 420px;
-    background-color: var(--White);
-    border-radius: 15px;
-    width: 83vw;
-    margin: auto;
-    margin-top: 10%;
-    margin-bottom: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction:
-      column;
     padding: 15px;
   }
 
-  .img {
-    max-width: 100%;
-    border-radius: 10px;
-  }
-
-
-  .card-text p {
-    font-size: 15px;
-    color: var(--grayish-blue);
-  }
-
-  .card-text h1 {
-    font-size: 22px;
-    color: var(--dark-blue);
-  }
 }
